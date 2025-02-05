@@ -1,0 +1,27 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 70px;
+
+    a {
+        padding: 0 10px;
+        font-weight: 400;
+        font-size: 16px;
+        letter-spacing: -0.4px;
+        line-height: 24px;
+
+    }
+
+    .extra {
+        border: 1px solid #DDDDDD;
+        padding: 8.5px 23px;
+        border-radius: 30px;
+
+        button {
+            color: #336913;
+            font-weight: 600;
+            font-size: 15px;
+        }
+    }
+}

@@ -1,0 +1,218 @@
+header {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+
+    .left-column,
+    .right-column {
+        flex: 1;
+        max-width: 50%;
+    }
+
+    .left-column {
+        margin: 50px 0px 50px 70px;
+
+        .left-column-2 {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .gh-project {
+            border: 1px solid #DDDDDD;
+            padding: 10px 23px;
+            border-radius: 30px;
+            font-weight: 400;
+            font-size: 16px;
+        }
+
+        .heading-text {
+            margin-top: 16px;
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 50px;
+            width: 650px;
+            letter-spacing: -0.4px;
+        }
+
+        .mega-card {
+            border: 1px solid #EEEEEE;
+            width: 589px;
+            height: 137px;
+            padding: 2rem;
+            border-radius: 20px;
+            margin-top: 2.33rem;
+            margin-bottom: 3.15rem;
+
+            .card {
+                display: flex;
+                justify-content: left;
+                flex-direction: row;
+                font-weight: 700;
+                align-items: center;
+                margin-top: -4px;
+                color: #336913;
+
+                .total {
+                    font-family: "Inter Tight", serif;
+                    font-weight: 700;
+                    font-size: 30px;
+                    margin-left: 11px;
+
+                    .small-pohon {
+                        font-size: 18px;
+                        font-weight: 400;
+                    }
+                }
+
+                .support {
+                    display: flex;
+                    flex-direction: row;
+                    margin-left: 60px;
+                    color: white;
+                    background-color: #336913;
+                    padding: 11px 28.3px;
+                    border-radius: 30px;
+                    font-weight: 500;
+                    font-size: 15px;
+
+                    .button-support {
+                        padding-right: 3px;
+                    }
+                }
+            }
+
+            .persentase-bar {
+                margin-top: 17.5px;
+                background-color: #EFF7EF;
+                height: 15px;
+                width: 520px;
+                border-radius: 20px;
+                position: relative;
+
+                .progress {
+                    position: absolute;
+                    height: 15px;
+                    width: 220px;
+                    background-color: #336913;
+                    border-radius: 20px;
+                }
+            }
+
+            .mangrove {
+                display: block;
+            }
+        }
+
+
+    }
+
+    .right-column {
+        border-left: 1px solid #EEEEEE;
+
+        .style-column {
+            margin: 28px 0px 50px 45px;
+
+            .leaderboard {
+                cursor: context-menu;
+                font-size: 32px;
+                font-weight: 700;
+                margin-bottom: 10px;
+            }
+
+            .donation {
+                border: 1px solid #85BB50;
+                display: inline-block;
+                padding: 10px 30px;
+                color: #2D9444;
+                font-weight: 600;
+                font-size: 18px;
+                border-radius: 30px;
+                margin-right: 8px;
+            }
+
+            .recent {
+                display: inline-block;
+                border: 1px solid #DDDDDD;
+                padding: 10px 30px;
+                color: #888888;
+                font-weight: 500;
+                font-size: 18px;
+                border-radius: 30px;
+            }
+        }
+    }
+
+    .data {
+        margin-top: 2.5rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 10px;
+        padding-bottom: 40px;
+        border-bottom: 1px solid #EEEEEE;
+
+        .nomor {
+            background-color: #336913;
+            color: white;
+            padding: 0.75rem 0.9rem;
+            border-radius: 70px;
+            font-weight: 700;
+            margin-right: 15px;
+        }
+
+        .empat {
+            background-color: #85BB50;
+        }
+
+        .lima {
+            background-color: #A7CC05;
+        }
+
+        .enam {
+            background-color: #A7CC05;
+        }
+
+        .unik {
+            padding: 0.75rem 1rem;
+        }
+
+
+        .detail {
+            padding-left: 0.4rem;
+
+            .detail-1 {
+                font-size: 12px;
+                font-weight: 400;
+            }
+
+            .detail-2 {
+                margin-top: -0.3rem;
+                font-size: 20px;
+                font-weight: 700;
+                width: 140px;
+            }
+
+        }
+
+        .pohon-detail {
+            color: #336913;
+            font-family: "Inter Tight", serif;
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            align-items: center;
+            padding-left: 3.8rem;
+
+            .total-pohon {
+                padding-left: 0.3rem;
+                font-size: 22.5px;
+                font-weight: 700;
+
+                .pohon-small {
+                    font-size: 12px;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}

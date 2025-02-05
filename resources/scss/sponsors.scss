@@ -1,0 +1,184 @@
+.sponsors {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .sponsors-heading {
+        font-size: 40px;
+        font-weight: 700;
+        color: #112D63;
+        padding-top: 60px;
+    }
+
+    .sponsors-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 700px;
+        font-size: 18px;
+        font-weight: 300;
+        text-align: center;
+    }
+
+    .personal-sponsorship,
+    .corporate-sponsorship {
+        text-align: center;
+        font-size: 26px;
+        font-weight: 600;
+    }
+
+    th {
+        background-color: #E0F6FF;
+        padding: 1rem;
+        font-weight: 500;
+    }
+
+    th:first-child {
+        border-radius: 10px 0 0 0;
+    }
+
+    th:last-child {
+        border-radius: 0 10px 0 0;
+    }
+
+    .table-sponsor tr:last-child td {
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    
+    .table1 {
+        border: 1px solid #ABEBFF;
+        border-radius: 10px;
+    }
+    .table2 {
+        border: 1px solid #ABEBFF;
+        border-radius: 10px;
+
+    }
+
+    .table-sponsor {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        font-size: 16px;
+        display: flex;
+        .table-sponsor th,
+        td {
+            padding: 1rem 1.7rem;
+        }
+
+        .membership {
+            text-align: left;
+            padding-left: 30px;
+        }
+
+        .btn-action {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding-right: 5px;
+            background-color: #518BBB;
+            color: white;
+            padding: 6px 18px;
+            border-radius: 30px;
+        }
+
+        .btn-support {
+            background-color: white;
+            color: #518BBB;
+            padding: 6px 18px;
+            border-radius: 30px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .column-table {
+            display: flex;
+            flex-direction: row;
+
+            .member {
+                padding-left: 10px;
+                font-weight: 500;
+            }
+        }
+
+        tr:nth-child(3),
+        tr:nth-child(5),
+        tr:nth-child(7) {
+            background-color: #F8FDFF;
+        }
+
+
+    }
+
+    .garis {
+        width: 88%;
+        height: 1px;
+        background-color: #EEEEEE;
+    }
+
+    .corporate {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .table-sponsor2 {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+        font-size: 16px;
+        display: flex;
+
+        .table-sponsor2 th,
+        td {
+            padding: 1rem 2.2rem;
+        }
+        tr:last-child td {
+            border: 1px solid white;
+        }
+
+        .donation {
+            background-color: #518BBB;
+            padding: 1rem;
+            font-weight: 600;
+            font-size: 16px;
+            color: white;
+            
+
+            .btn-support {
+                background-color: white;
+                color: #518BBB;
+                padding: 6px 18px;
+                border-radius: 30px;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+            }
+        }
+  
+
+        td:nth-child(2) {
+            display: flex;
+            justify-content: center;
+        }
+
+        td:nth-child(4) {
+            display: flex;
+            justify-content: center;
+        }
+
+        .circle {
+            display: flex;
+            justify-content: center;
+        }
+
+    }
+
+}
