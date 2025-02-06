@@ -48,15 +48,10 @@
         border-bottom-right-radius: 10px;
     }
 
-    
     .table1 {
         border: 1px solid #ABEBFF;
-        border-radius: 10px;
-    }
-    .table2 {
-        border: 1px solid #ABEBFF;
-        border-radius: 10px;
-
+        border-radius: 10px; /* Melengkungkan seluruh tabel */
+        overflow: hidden; /* Pastikan border-radius bekerja dengan baik */
     }
 
     .table-sponsor {
@@ -112,8 +107,6 @@
         tr:nth-child(7) {
             background-color: #F8FDFF;
         }
-
-
     }
 
     .garis {
@@ -135,13 +128,20 @@
         text-align: center;
         font-size: 16px;
         display: flex;
+        border-collapse: collapse; /* Ensure proper border collapse */
+        border: 1px solid #ABEBFF; /* Border for table */
+        border-radius: 0 0 10px 10px; /* Only bottom corners should be rounded */
+        overflow: hidden; /* Ensures the rounding works smoothly */
 
         .table-sponsor2 th,
         td {
             padding: 1rem 2.2rem;
         }
+
+        /* Apply bottom rounded corners to the entire table */
+
         tr:last-child td {
-            border: 1px solid white;
+            outline: 1px solid white;
         }
 
         .donation {
@@ -150,7 +150,6 @@
             font-weight: 600;
             font-size: 16px;
             color: white;
-            
 
             .btn-support {
                 background-color: white;
@@ -162,13 +161,8 @@
                 align-items: center;
             }
         }
-  
 
-        td:nth-child(2) {
-            display: flex;
-            justify-content: center;
-        }
-
+        td:nth-child(2),
         td:nth-child(4) {
             display: flex;
             justify-content: center;
@@ -178,7 +172,5 @@
             display: flex;
             justify-content: center;
         }
-
     }
-
 }
