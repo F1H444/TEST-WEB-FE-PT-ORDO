@@ -50,8 +50,8 @@
 
     .table1 {
         border: 1px solid #ABEBFF;
-        border-radius: 10px; /* Melengkungkan seluruh tabel */
-        overflow: hidden; /* Pastikan border-radius bekerja dengan baik */
+        border-radius: 10px;
+        overflow: hidden;
     }
 
     .table-sponsor {
@@ -128,17 +128,15 @@
         text-align: center;
         font-size: 16px;
         display: flex;
-        border-collapse: collapse; /* Ensure proper border collapse */
-        border: 1px solid #ABEBFF; /* Border for table */
-        border-radius: 0 0 10px 10px; /* Only bottom corners should be rounded */
-        overflow: hidden; /* Ensures the rounding works smoothly */
+        border-collapse: collapse;
+        border: 1px solid #ABEBFF;
+        border-radius: 10px;
+        overflow: hidden;
 
         .table-sponsor2 th,
         td {
             padding: 1rem 2.2rem;
         }
-
-        /* Apply bottom rounded corners to the entire table */
 
         tr:last-child td {
             outline: 1px solid white;
