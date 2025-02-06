@@ -313,8 +313,10 @@
                     <img src="{{ asset('images/img-event.png') }}" alt="img-event">
                     <div class="arrow">
                         <p class="arrow-left">
-                            <img src="{{ asset('images/arrow-left.png') }}" alt="arrow-left"></p>
-                                <p class="arrow-right"><img src="{{ asset('images/arrow-right.png') }}" alt="arrow-right" width="27px"></p>
+                            <img src="{{ asset('images/arrow-left.png') }}" alt="arrow-left">
+                        </p>
+                        <p class="arrow-right"><img src="{{ asset('images/arrow-right.png') }}" alt="arrow-right"
+                                width="27px"></p>
                     </div>
                 </div>
             </div>
@@ -371,11 +373,11 @@
         </div>
         <br>
         <div class="table1">
-        <table class="table-sponsor">
-            
-            <tr>
-                        <th class="membership">Membership Tier</th>
-                        <th>Min. Seeds</th>
+            <table class="table-sponsor">
+
+                <tr>
+                    <th class="membership">Membership Tier</th>
+                    <th>Min. Seeds</th>
                     <th>Min. Buy</th>
                     <th>Benefits</th>
                     <th>Donors</th>
@@ -399,7 +401,8 @@
                         4,900 Donors
                     </td>
                     <td>
-                        <button class="btn-action">Support Our Mission  <img src="{{ asset('images/arrow-right.png') }}" alt=""></button>
+                        <button class="btn-action">Support Our Mission <img
+                                src="{{ asset('images/arrow-right.png') }}" alt=""></button>
                     </td>
                 </tr>
                 <tr>
@@ -420,7 +423,8 @@
                         4,300 Donors
                     </td>
                     <td>
-                        <button class="btn-action">Support Our Mission  <img src="{{ asset('images/arrow-right.png') }}" alt=""></button>
+                        <button class="btn-action">Support Our Mission <img
+                                src="{{ asset('images/arrow-right.png') }}" alt=""></button>
                     </td>
                 </tr>
                 <tr>
@@ -441,7 +445,8 @@
                         15,000 Donors
                     </td>
                     <td>
-                        <button class="btn-action">Support Our Mission  <img src="{{ asset('images/arrow-right.png') }}" alt=""></button>
+                        <button class="btn-action">Support Our Mission <img
+                                src="{{ asset('images/arrow-right.png') }}" alt=""></button>
                     </td>
                 </tr>
                 <tr>
@@ -462,7 +467,8 @@
                         5,000 Donors
                     </td>
                     <td>
-                        <button class="btn-action">Support Our Mission <img src="{{ asset('images/arrow-right.png') }}" alt=""></button>
+                        <button class="btn-action">Support Our Mission <img
+                                src="{{ asset('images/arrow-right.png') }}" alt=""></button>
                     </td>
                 </tr>
                 <tr>
@@ -483,7 +489,8 @@
                         300 Donors
                     </td>
                     <td>
-                        <button class="btn-action">Support Our Mission <img src="{{ asset('images/arrow-right.png') }}" alt=""></button>
+                        <button class="btn-action">Support Our Mission <img
+                                src="{{ asset('images/arrow-right.png') }}" alt=""></button>
                     </td>
                 </tr>
                 <div>
@@ -491,190 +498,194 @@
                         <td class="column-table">
                             <img src="{{ asset('images/logo8.png') }}" alt="icon" width="27px">
                             <p class="member">Mangrove Maven</p>
-                    </td>
-                    <td>
-                        200 Seeds
-                    </td>
-                    <td>
-                        IDR 3,000K
-                    </td>
-                    <td>
-                        Badge + Pin + Bag
-                    </td>
-                    <td>
-                        10 Donors
-                    </td>
-                    <td>
-                        <button class="btn-action">Support Our Mission <img src="{{ asset('images/arrow-right.png') }}" alt=""></button>
-                    </td>
-                </tr>
-            </div>
+                        </td>
+                        <td>
+                            200 Seeds
+                        </td>
+                        <td>
+                            IDR 3,000K
+                        </td>
+                        <td>
+                            Badge + Pin + Bag
+                        </td>
+                        <td>
+                            10 Donors
+                        </td>
+                        <td>
+                            <button class="btn-action">Support Our Mission <img
+                                    src="{{ asset('images/arrow-right.png') }}" alt=""></button>
+                        </td>
+                    </tr>
+                </div>
         </div>
-            </table>
-        </div>
-        <br>
-        <br>
-        <div class="garis"></div>
-        <br>
-        <br>
+        </table>
+    </div>
+    <br>
+    <br>
+    <div class="garis"></div>
+    <br>
+    <br>
 
-        <div class="corporate">
-            <div class="corporate-sponsorship">
-                <p>Corporate Sponsorship Package</p>
-            </div>
+    <div class="corporate">
+        <div class="corporate-sponsorship">
+            <p>Corporate Sponsorship Package</p>
         </div>
-        <br>
-            <div class="table2">
-            <table class="table-sponsor2">
-                <tr>
-                    <th>Benefits</th>
-                    <th>Eco Trailblazers</th>
-                    <th>Green Innovators</th>
-                    <th>Eco Vanguard</th>
-                </tr>
-                <tr>
-                    <td class="column-table">
-                        <p class="benefits">Price</p>
-                    </td>
-                    <td>
-                        15 Million IDR
-                    </td>
-                    <td>
-                        30 Million IDR
-                    </td>
-                    <td>
-                        45 Million IDR
-                    </td>
-                </tr>
-                <tr>
-                    <td class="column-table">
-                        <p class="benefits">CO2 Sequestration</p>
-                    </td>
-                    <td>
-                        22,5 ton/year
-                    </td>
-                    <td>
-                        45 ton/year
-                    </td>
-                    <td>
-                        67,5 ton/year
-                    </td>
-                </tr>
-                <tr>
-                    <td class="column-table">
-                        <p class="benefits">Number of Tress</p>
-                    </td>
-                    <td>
-                        1000 Trees
-                    </td>
-                    <td>
-                        2000 Trees
-                    </td>
-                    <td>
-                        3000 Trees
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p class="benefits">Logo on JCI Banner</p>
-                    </td>
-                    <td>
+    </div>
+    <br>
+    <div class="table2">
+        <table class="table-sponsor2">
+            <tr>
+                <th>Benefits</th>
+                <th>Eco Trailblazers</th>
+                <th>Green Innovators</th>
+                <th>Eco Vanguard</th>
+            </tr>
+            <tr>
+                <td class="column-table">
+                    <p class="benefits">Price</p>
+                </td>
+                <td>
+                    15 Million IDR
+                </td>
+                <td>
+                    30 Million IDR
+                </td>
+                <td>
+                    45 Million IDR
+                </td>
+            </tr>
+            <tr>
+                <td class="column-table">
+                    <p class="benefits">CO2 Sequestration</p>
+                </td>
+                <td>
+                    22,5 ton/year
+                </td>
+                <td>
+                    45 ton/year
+                </td>
+                <td>
+                    67,5 ton/year
+                </td>
+            </tr>
+            <tr>
+                <td class="column-table">
+                    <p class="benefits">Number of Tress</p>
+                </td>
+                <td>
+                    1000 Trees
+                </td>
+                <td>
+                    2000 Trees
+                </td>
+                <td>
+                    3000 Trees
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="benefits">Logo on JCI Banner</p>
+                </td>
+                <td>
+                    <img src="{{ asset('images/circle.png') }}" alt="centang">
+                </td>
+                <td>
+                    <div class="circle">
                         <img src="{{ asset('images/circle.png') }}" alt="centang">
-                    </td>
-                    <td>
-                        <div class="circle">
-                            <img src="{{ asset('images/circle.png') }}" alt="centang">
-                        </div>
-                    </td>
-                    <td>
+                    </div>
+                </td>
+                <td>
+                    <img src="{{ asset('images/circle.png') }}" alt="centang">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="benefits">Logo on Communal Stainless Plate</p>
+                </td>
+                <td>
+                    <img src="{{ asset('images/circle.png') }}" alt="centang">
+                </td>
+                <td>
+                    <div class="circle">
                         <img src="{{ asset('images/circle.png') }}" alt="centang">
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p class="benefits">Logo on Communal Stainless Plate</p>
-                    </td>
-                    <td>
+                    </div>
+                </td>
+                <td>
+                    <img src="{{ asset('images/circle.png') }}" alt="centang">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="benefits">Considered as Main Sponsor</p>
+                </td>
+                <td>
+                    <img src="{{ asset('images/circle.png') }}" alt="centang">
+                </td>
+                <td>
+                    <div class="circle">
                         <img src="{{ asset('images/circle.png') }}" alt="centang">
-                    </td>
-                    <td>
-                        <div class="circle">
-                            <img src="{{ asset('images/circle.png') }}" alt="centang">
-                        </div>
-                    </td>
-                    <td>
+                    </div>
+                </td>
+                <td>
+                    <img src="{{ asset('images/circle.png') }}" alt="centang">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="benefits">Dedicated Stainless Plate</p>
+                </td>
+                <td></td>
+                <td>
+                    <div class="circle">
                         <img src="{{ asset('images/circle.png') }}" alt="centang">
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p class="benefits">Considered as Main Sponsor</p>
-                    </td>
-                    <td>
+                    </div>
+                </td>
+                <td>
+                    <img src="{{ asset('images/circle.png') }}" alt="centang">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="benefits">Report Update on Planted Trees</p>
+                </td>
+                <td></td>
+                <td>
+                    <div class="circle">
                         <img src="{{ asset('images/circle.png') }}" alt="centang">
-                    </td>
-                    <td>
-                        <div class="circle">
-                            <img src="{{ asset('images/circle.png') }}" alt="centang">
-                        </div>
-                    </td>
-                    <td>
-                        <img src="{{ asset('images/circle.png') }}" alt="centang">
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p class="benefits">Dedicated Stainless Plate</p>
-                    </td>
-                    <td></td>
-                    <td>
-                        <div class="circle">
-                            <img src="{{ asset('images/circle.png') }}" alt="centang">
-                        </div>
-                    </td>
-                    <td>
-                        <img src="{{ asset('images/circle.png') }}" alt="centang">
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p class="benefits">Report Update on Planted Trees</p>
-                    </td>
-                    <td></td>
-                    <td>
-                        <div class="circle">
-                            <img src="{{ asset('images/circle.png') }}" alt="centang">
-                        </div>
-                    </td>
-                    <td>
-                        <img src="{{ asset('images/circle.png') }}" alt="centang">
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p class="benefits">Logo on Event Clothings</p>
-                    </td>
-                    <td>
-                    </td>
-                    <td></td>
-                    <td>
-                        <img src="{{ asset('images/circle.png') }}" alt="centang">
-                    </td>
-                </tr>
-                <tr class="donation">
-                    <td>
-                        <p class="benefits">Make a Donation</p>
-                    </td>
-                    <td>
-                        <button class="btn-support">Support Our Mission <img src="{{ asset('images/arrow-blue.png') }}" alt="arrow"></button>
-                    </td>
-                    <td><button class="btn-support">Support Our Mission  <img src="{{ asset('images/arrow-blue.png') }}" alt="arrow"></button></td>
-                    <td>
-                        <button class="btn-support">Support Our Mission  <img src="{{ asset('images/arrow-blue.png') }}" alt="arrow"></button>
-                    </td>
-                </tr>
-            </table>
-        </div>
+                    </div>
+                </td>
+                <td>
+                    <img src="{{ asset('images/circle.png') }}" alt="centang">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="benefits">Logo on Event Clothings</p>
+                </td>
+                <td>
+                </td>
+                <td></td>
+                <td>
+                    <img src="{{ asset('images/circle.png') }}" alt="centang">
+                </td>
+            </tr>
+            <tr class="donation">
+                <td>
+                    <p class="benefits">Make a Donation</p>
+                </td>
+                <td>
+                    <button class="btn-support">Support Our Mission <img src="{{ asset('images/arrow-blue.png') }}"
+                            alt="arrow"></button>
+                </td>
+                <td><button class="btn-support">Support Our Mission <img src="{{ asset('images/arrow-blue.png') }}"
+                            alt="arrow"></button></td>
+                <td>
+                    <button class="btn-support">Support Our Mission <img src="{{ asset('images/arrow-blue.png') }}"
+                            alt="arrow"></button>
+                </td>
+            </tr>
+        </table>
+    </div>
     <br>
     <br>
     <br>
@@ -691,7 +702,8 @@
                 by donating to our mangrove planting project. </p>
         </div>
         <br>
-        <button class="support-btn">Support Our Mission <img src="{{ asset('images/arrow-right.png') }}" alt=""></button>
+        <button class="support-btn">Support Our Mission <img src="{{ asset('images/arrow-right.png') }}"
+                alt=""></button>
         <div class="image-support">
             <img src="{{ asset('images/sup1.png') }}" alt="sup-img" width="240px" height="425px" class="img1">
             <img src="{{ asset('images/sup2.png') }}" alt="sup-img" width="240px" height="281px" class="img2">
